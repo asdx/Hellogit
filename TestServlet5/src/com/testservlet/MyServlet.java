@@ -18,7 +18,7 @@ public class MyServlet extends HttpServlet {
         response.getWriter().println("<html><body><p>" + username + "</p></body></html>");
     }
 
-
+  //not used metod Post
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        doGet(request, response);
        
